@@ -1,0 +1,30 @@
+{
+    "model_path":  "train8/weights/best.pt",
+    "host":  "0.0.0.0",
+    "port":  8080,
+    "confidence":  0.25,
+    "iou":  0.7,
+    "image_size":  640,
+    "mm_per_pixel_x":  0.253548267487232,
+    "mm_per_pixel_y":  0.256402020339626,
+    "aluminum_class_names":  [
+                                 "aluminum",
+                                 "aluminium",
+                                 "lv_pian",
+                                 "lvban",
+                                 "plate",
+                                 "zheng_chang"
+                             ],
+    "normal_class_names":  [
+                               "zheng_chang"
+                           ],
+    "plate_min_area_ratio":  0.02,
+    "plate_max_area_ratio":  0.98,
+    "mimo":  {
+                 "api_key":  "sk-ciptsvt5a8cnb6epmr1ju5ilgd7hvjiduee6srhstr5ytkj4",
+                 "base_url":  "https://api.xiaomimimo.com/v1/chat/completions",
+                 "model":  "mimo-v2.5",
+                 "timeout":  30,
+                 "max_completion_tokens":  1024
+             }
+}
