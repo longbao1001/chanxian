@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.vscode/
+*.vscode
+
+dist/
+build/
+*.egg-info/
+
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+
+data/
+train*/
+datasets/
+runs/
+
+.env
+*.log
+
+# 备份文件
+*.bak
+*.bak-*
+*.bak_*
+*.codexbak*
+*.codex-*
+
+# 数据文件
+GrabImage/files/
+GrabImage/measure_history/
+GrabImage/detect_files/
+GrabImage/original_files/
+GrabImage/*.jpg
+GrabImage/*.png
+GrabImage/defect.db
+GrabImage/.ipynb_checkpoints/
+
+# 模型和训练
+new_best.pt
+train8/
